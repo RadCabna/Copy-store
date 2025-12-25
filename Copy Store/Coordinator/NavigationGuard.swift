@@ -2,8 +2,13 @@ import Foundation
 
 enum AvailableScreens: Equatable {
     case LOADING
-    case ONBOARDING
     case MAIN
+}
+
+enum LoaderStatus {
+    case LOADING
+    case DONE
+    case ERROR
 }
 
 class NavGuard: ObservableObject {

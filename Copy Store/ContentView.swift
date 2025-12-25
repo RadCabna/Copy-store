@@ -92,7 +92,7 @@ struct ContentView: View {
                         .frame(height: screenHeight * 0.025)
                     
                     Text(menuItems[index].1)
-                        .font(.custom("SF-Pro-Display-Semibold", size: screenHeight * 0.012))
+                        .font(.custom("SF Pro Display", size: screenHeight * 0.012))
                         .foregroundColor(isSelected ? Color("text_1Color") : .black)
                 }
                 .padding(.vertical, screenHeight * 0.01)

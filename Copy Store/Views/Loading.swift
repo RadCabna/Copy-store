@@ -16,7 +16,7 @@ struct Loading: View {
             
             // Placeholder - будет добавлено позже
             Text("Loading...")
-                .font(.custom("SF-Pro-Display-Semibold", size: 24))
+                .font(.custom("SF Pro Display", size: 24))
                 .foregroundColor(Color("text_1Color"))
         }
     }

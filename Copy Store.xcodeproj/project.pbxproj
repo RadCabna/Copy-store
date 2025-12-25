@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DD8B5D672EFA49D400ED4BC2 /* Copy Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B5D672EFA49D400ED4BC2 /* Copy Store – Warranty Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Store – Warranty Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		DD8B5D682EFA49D400ED4BC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD8B5D672EFA49D400ED4BC2 /* Copy Store.app */,
+				DD8B5D672EFA49D400ED4BC2 /* Copy Store – Warranty Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Copy Store";
-			productReference = DD8B5D672EFA49D400ED4BC2 /* Copy Store.app */;
+			productReference = DD8B5D672EFA49D400ED4BC2 /* Copy Store – Warranty Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -247,9 +247,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Copy Store/Copy_Store.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Copy-Store-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to camera to take photos of receipts";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photo library to select receipt photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -265,8 +268,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "f1.Copy-Store";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.copystore.wtra;
+				PRODUCT_NAME = "Copy Store – Warranty Tracker";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -286,9 +289,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Copy Store/Copy_Store.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Copy-Store-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to camera to take photos of receipts";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to photo library to select receipt photos";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -304,8 +310,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "f1.Copy-Store";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.copystore.wtra;
+				PRODUCT_NAME = "Copy Store – Warranty Tracker";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
